@@ -30,7 +30,7 @@ export default function Home() {
             </nav>
 
             <button className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity">
-              Buy KTN Now
+              Invest in KTN Now
             </button>
           </div>
         </div>

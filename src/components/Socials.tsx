@@ -30,7 +30,7 @@ const Socials = () => {
   ];
 
   return (
-    <div className="sm:max-w-2xl my-12 mx-auto">
+    <div className="sm:max-w-2xl my-12 mx-auto" id="socials">
       <div className="flex justify-center items-center gap-6 p-4 sm:p-6 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700">
         {socialLinks.map((social) => (
           <a

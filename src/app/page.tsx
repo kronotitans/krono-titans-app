@@ -28,6 +28,12 @@ export default function Home() {
               >
                 Whitepaper
               </a>
+              <a
+                href="#socials"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                Socials
+              </a>
             </nav>
 
             <button className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity">

@@ -1,3 +1,5 @@
+import ContractCard from "./ContractCard";
+
 const Hero = () => {
   return (
     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,6 +25,8 @@ const Hero = () => {
           <p className="font-semibold text-2xl text-gray-400 max-w-2xl mx-auto">
             Get Ready for the Future of Gaming
           </p>
+
+          <ContractCard address="UQBuURAhP4rhEjNqLD94ox_py47osrXZW_SWY3Yp6-wzaFJf" />
 
           <div className="flex justify-center gap-4">
             <button className="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-opacity">

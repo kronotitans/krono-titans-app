@@ -9,7 +9,7 @@ const Hero = () => {
       </div>
 
       <div className="relative">
-        <div className="text-center space-y-8 py-20">
+        <div className="text-center space-y-8 py-5 sm:py-10 md:py-20">
           <div className="relative w-40 h-40 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full animate-spin-slow"></div>
             <div className="absolute inset-2 bg-gray-900 rounded-full"></div>

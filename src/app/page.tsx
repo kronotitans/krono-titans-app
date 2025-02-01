@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Roadmap from "@/components/Roadmap";
+import Socials from "@/components/Socials";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
       <main className="pt-24">
         <Hero />
         <Roadmap />
+        <Socials />
       </main>
     </div>
   );

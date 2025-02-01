@@ -22,7 +22,7 @@ export default function Home() {
                 Roadmap
               </a>
               <a
-                href="https://krono-titans.gitbook.io/krono-titans-whitepaper"
+                href="https://whitepaper.kronotitans.com"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 Whitepaper

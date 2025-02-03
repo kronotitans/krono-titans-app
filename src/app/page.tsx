@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Hero from "@/components/Hero";
 import Roadmap from "@/components/Roadmap";
 import Socials from "@/components/Socials";
@@ -10,6 +10,18 @@ import { X, Menu } from "lucide-react";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isOpen]);
 
   return (
     <div className="min-h-screen bg-gray-900 text-white">

@@ -36,9 +36,9 @@ export default function Home() {
               </a>
             </nav>
 
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity">
+            <a href="https://t.me/KVX_Sponsors" target="_blank" className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity">
               Invest in KTN Now
-            </button>
+            </a>
           </div>
         </div>
       </header>

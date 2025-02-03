@@ -29,9 +29,9 @@ const Hero = () => {
           {/* <ContractCard address="UQBuURAhP4rhEjNqLD94ox_py47osrXZW_SWY3Yp6-wzaFJf" /> */}
 
           <div className="flex justify-center gap-4">
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-opacity">
+            <a href="https://t.me/KVX_Sponsors" target="_blank" className="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-opacity">
               Invest in KTN Now
-            </button>
+            </a>
           </div>
         </div>
       </div>

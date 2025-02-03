@@ -1,5 +1,7 @@
 /// import ContractCard from "./ContractCard";
 
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -10,10 +12,13 @@ const Hero = () => {
 
       <div className="relative">
         <div className="text-center space-y-8 py-5 sm:py-10 md:py-20">
-          <div className="relative w-40 h-40 mx-auto">
+          {/* <div className="relative w-40 h-40 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full animate-spin-slow"></div>
             <div className="absolute inset-2 bg-gray-900 rounded-full"></div>
             <div className="absolute inset-4 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full animate-pulse"></div>
+          </div> */}
+          <div className="flex justify-center items-center mx-auto">
+            <Image src="/ktn.png" alt="KTN" width={180} height={180} />
           </div>
 
           <h1 className="text-4xl md:text-7xl font-bold">
@@ -29,7 +34,11 @@ const Hero = () => {
           {/* <ContractCard address="UQBuURAhP4rhEjNqLD94ox_py47osrXZW_SWY3Yp6-wzaFJf" /> */}
 
           <div className="flex justify-center gap-4">
-            <a href="https://t.me/KVX_Sponsors" target="_blank" className="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-opacity">
+            <a
+              href="https://t.me/KVX_Sponsors"
+              target="_blank"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-opacity"
+            >
               Invest in KTN Now
             </a>
           </div>

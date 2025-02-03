@@ -1,6 +1,8 @@
 import Hero from "@/components/Hero";
 import Roadmap from "@/components/Roadmap";
 import Socials from "@/components/Socials";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,16 +10,19 @@ export default function Home() {
       <header className="fixed w-full bg-gray-900/80 backdrop-blur-lg border-b border-gray-800 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center space-x-2">
-              <img
-                src="/logo.jpeg"
-                alt="Krono Titans Logo"
-                className="w-8 h-8 rounded-full"
-              />
-              <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                Krono Titans
-              </span>
-            </div>
+            <Link href="/">
+              <div className="flex items-center space-x-2">
+                <Image
+                  src="/ktn.png"
+                  alt="Krono Titans Logo"
+                  width={42}
+                  height={42}
+                />
+                <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                  Krono Titans
+                </span>
+              </div>
+            </Link>
 
             <nav className="hidden md:flex space-x-8">
               <a
@@ -40,7 +45,11 @@ export default function Home() {
               </a>
             </nav>
 
-            <a href="https://t.me/KVX_Sponsors" target="_blank" className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity">
+            <a
+              href="https://t.me/KVX_Sponsors"
+              target="_blank"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity"
+            >
               Invest in KTN Now
             </a>
           </div>
